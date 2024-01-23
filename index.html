@@ -10,7 +10,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/c42c875275.js" crossorigin="anonymous"></script>
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- Internal CSS -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
     <!-- Custom CSS -->
     <script>
         tailwind.config = {
@@ -25,63 +34,129 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope space-y-24">
     <!-- Header Section Start Here -->
     <header class="container mx-auto max-w-[1170px]">
         <!-- Navbar Section Start Here -->
         <nav>
-            
+
         </nav>
-        <!-- Navbar Section Start Here -->
+        <!-- Navbar Section End Here -->
 
         <!-- Banner Section Start Here -->
         <section class="">
             <div class="carousel w-full max-h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full rounded-2xl object-cover" />
-                  <div class="absolute flex gap-4 bottom-8 left-8">
-                    <a href="#slide3" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                    <a href="#slide2" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                  </div>
-                </div> 
+                    <img src="./Images/1.png" class="w-full rounded-2xl object-cover" />
+                    <div class="absolute flex gap-4 bottom-8 left-8">
+                        <a href="#slide3" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                        <a href="#slide2" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                    </div>
+                </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                  <img src="./Images/players.jpg" class="w-full rounded-2xl object-cover" />
-                  <div class="absolute flex gap-4 bottom-8 left-8">
-                    <a href="#slide1" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                    <a href="#slide3" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                  </div>
-                </div> 
+                    <img src="./Images/players.jpg" class="w-full rounded-2xl object-cover" />
+                    <div class="absolute flex gap-4 bottom-8 left-8">
+                        <a href="#slide1" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                        <a href="#slide3" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                    </div>
+                </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                  <img src="./Images/stadium-gallary.jpg" class="w-full rounded-2xl object-cover" />
-                  <div class="absolute flex gap-4 bottom-8 left-8">
-                    <a href="#slide2" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                    <a href="#slide1" class="w-10 h-10 bg-[#131318] rounded-full relative">
-                        <i class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-                    </a>
-                  </div>
-                </div> 
-              </div>
+                    <img src="./Images/stadium-gallary.jpg" class="w-full rounded-2xl object-cover" />
+                    <div class="absolute flex gap-4 bottom-8 left-8">
+                        <a href="#slide2" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                        <a href="#slide1" class="w-10 h-10 bg-[#131318] rounded-full relative">
+                            <i
+                                class="fa-solid fa-chevron-right text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- Banner Section Start Here -->
+        <!-- Banner Section End Here -->
     </header>
     <!-- Header Section End Here -->
-    <main>
-        
+
+    <!-- Main Section Start Here -->
+    <main class="container mx-auto max-w-[1170px]">
+        <!-- Professional Hockeys Club Section Start Here -->
+        <section class="">
+            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
+                <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna
+                    in sit nullam proin.</p>
+            </div>
+
+            <div class="flex justify-around">
+                <!-- First Circle -->
+                <div class="text-center">
+                    <div class="mx-auto w-[80px] h-[80px] rounded-full border-8 border-[#E7E7E8] relative mb-6">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 radial-progress text-red-500 rotate-180"
+                            style="--value:87;" role="progressbar">
+                            <span class="rotate-180 text-2xl font-extrabold text-[#131318]">87%</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <!-- Second Circle -->
+                <div class="text-center">
+                    <div class="mx-auto w-[80px] h-[80px] rounded-full border-8 border-[#E7E7E8] relative mb-6">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 radial-progress text-emerald-400 rotate-180"
+                            style="--value:95;" role="progressbar">
+                            <span class="rotate-180 text-2xl font-extrabold text-[#131318]">95%</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <!-- Third Circle -->
+                <div class="text-center">
+                    <div class="mx-auto w-[80px] h-[80px] rounded-full border-8 border-[#E7E7E8] relative mb-6">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 radial-progress text-amber-400 rotate-180"
+                            style="--value:90;" role="progressbar">
+                            <span class="rotate-180 text-2xl font-extrabold text-[#131318]">90%</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <!-- Fourth Circle -->
+                <div class="text-center">
+                    <div class="mx-auto w-[80px] h-[80px] rounded-full border-8 border-[#E7E7E8] relative mb-6">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 radial-progress text-blue-400 rotate-180"
+                            style="--value:80;" role="progressbar">
+                            <span class="rotate-180 text-2xl font-extrabold text-[#131318]">80%</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
+                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Professional Hockeys Club Section End Here -->
     </main>
-    <!-- Section Start Here -->
-    <!-- Section Start Here -->
+    <!-- Main Section End Here -->
+
     <footer>
-        
+
+        <!-- Section Start Here -->
+        <!-- Section End Here -->
     </footer>
 </body>
 
