@@ -36,12 +36,12 @@
     </script>
 </head>
 
-<body class="font-manrope space-y-24">
+<body class="font-manrope space-y-10 lg:space-y-24">
     <!-- Header Section Start Here -->
-    <header class="container mx-auto max-w-[1170px]">
+    <header class="container mx-auto max-w-[1170px] px-5 lg:px-0">
         <!-- Navbar Section Bonus Part Start Here -->
         <nav class="my-6 lg:my-12">
-            <div class="navbar px-5 lg:p-0">
+            <div class="navbar lg:p-0">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost p-0 mr-4 lg:hidden">
@@ -60,7 +60,8 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">&#8217;</span>s</a>
+                    <a class="text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span
+                            class="text-[#FF4240]">&#8217;</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="flex items-center gap-11 text-base font-normal text-[#424247]">
@@ -68,7 +69,7 @@
                         <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">About</a></li>
                         <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">Pages</a></li>
                         <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">Blog</a></li>
-                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer"a>Contact</a></li>
+                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer" a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end hidden lg:flex gap-6 items-center">
@@ -83,11 +84,12 @@
         <!-- Navbar Section Bonus Part End Here -->
 
         <!-- Banner Section Start Here -->
-        <section class="hidden">
+        <section class="">
             <div class="carousel w-full max-h-[550px]">
+                <!-- Slide-1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full rounded-2xl object-cover" />
-                    <div class="absolute flex gap-4 bottom-8 left-8">
+                    <div class="absolute flex gap-4 bottom-8 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-8">
                         <a href="#slide3" class="w-10 h-10 bg-[#131318] rounded-full relative">
                             <i
                                 class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
@@ -98,9 +100,10 @@
                         </a>
                     </div>
                 </div>
+                <!-- Slide-2 -->
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./Images/players.jpg" class="w-full rounded-2xl object-cover" />
-                    <div class="absolute flex gap-4 bottom-8 left-8">
+                    <div class="absolute flex gap-4 bottom-8 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-8">
                         <a href="#slide1" class="w-10 h-10 bg-[#131318] rounded-full relative">
                             <i
                                 class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
@@ -111,9 +114,10 @@
                         </a>
                     </div>
                 </div>
+                <!-- Slide-3 -->
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./Images/stadium-gallary.jpg" class="w-full rounded-2xl object-cover" />
-                    <div class="absolute flex gap-4 bottom-8 left-8">
+                    <div class="absolute flex gap-4 bottom-8 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-8">
                         <a href="#slide2" class="w-10 h-10 bg-[#131318] rounded-full relative">
                             <i
                                 class="fa-solid fa-chevron-left text-white transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
@@ -131,17 +135,19 @@
     <!-- Header Section End Here -->
 
     <!-- Main Section Start Here -->
-    <main class="container mx-auto max-w-[1170px] space-y-24 hidden">
+    <main class="container mx-auto max-w-[1170px] space-y-10 lg:space-y-24 px-5 lg:px-0">
         <!-- Professional Hockeys Club Section Start Here -->
         <section class="">
-            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
-                <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
-                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+            <div
+                class="space-y-4 lg:space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-6 lg:py-8 mb-6 lg:mb-12">
+                <h2 class="text-[22px] lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="text-sm lg:text-base font-medium max-w-72 lg:max-w-xl mx-auto">Dit amet consectetur.
+                    Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna
                     in sit nullam proin.</p>
             </div>
 
-            <div class="flex justify-around">
+            <div class="flex gap-6 lg:gap-0 justify-around flex-col lg:flex-row">
                 <!-- First Circle -->
                 <div class="text-center">
                     <div class="mx-auto w-[112px] h-[112px] rounded-full border-[11px] border-[#E7E7E8] relative mb-6">
@@ -151,7 +157,8 @@
                         </div>
                     </div>
                     <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
-                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                    <p class="text-base font-normal max-w-64 mx-auto">Amet consectetur. Condimentum dignissim
+                        adipiscing.</p>
                 </div>
                 <!-- Second Circle -->
                 <div class="text-center">
@@ -162,7 +169,8 @@
                         </div>
                     </div>
                     <h4 class="text-xl font-semibold mb-4">Experienced Coach</h4>
-                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                    <p class="text-base font-normal max-w-64 mx-auto">Amet consectetur. Condimentum dignissim
+                        adipiscing.</p>
                 </div>
                 <!-- Third Circle -->
                 <div class="text-center">
@@ -173,7 +181,8 @@
                         </div>
                     </div>
                     <h4 class="text-xl font-semibold mb-4">Senior Player</h4>
-                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                    <p class="text-base font-normal max-w-64 mx-auto">Amet consectetur. Condimentum dignissim
+                        adipiscing.</p>
                 </div>
                 <!-- Fourth Circle -->
                 <div class="text-center">
@@ -184,7 +193,8 @@
                         </div>
                     </div>
                     <h4 class="text-xl font-semibold mb-4">Training Ground</h4>
-                    <p class="text-base font-normal max-w-64">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                    <p class="text-base font-normal max-w-64 mx-auto">Amet consectetur. Condimentum dignissim
+                        adipiscing.</p>
                 </div>
             </div>
         </section>
@@ -192,55 +202,66 @@
 
         <!-- Program SectionsSection Start Here -->
         <section class="">
-            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
-                <h2 class="text-4xl font-extrabold">Program Sections</h2>
-                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+            <div
+                class="space-y-4 lg:space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-6 lg:py-8 mb-6 lg:mb-12">
+                <h2 class="text-[22px] lg:text-4xl font-extrabold">Program Sections</h2>
+                <p class="text-sm lg:text-base font-medium max-w-72 lg:max-w-xl mx-auto">Dit amet consectetur.
+                    Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <!-- programs container -->
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <!-- Junior Program -->
                 <div
-                    class="hero place-items-end min-h-[338px] bg-[url('./Images/2.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
+                    class="hero place-items-end lg:min-h-[338px] bg-[url('./Images/2.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
                     <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
                     <div class="text-white">
-                        <div class="mx-10 mb-10">
-                            <h1 class="mb-4 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-6 text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                        <div class="p-6 lg:p-0 lg:mx-10 lg:mb-10">
+                            <h1 class="mb-3 lg:mb-4 text-xl lg:text-2xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5 lg:mb-6 text-sm lg:text-base font-medium">Dolor sit amet consectetur. Ut urna
+                                diam quis
                                 sagittis. Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
-                            <button class="text-xl font-bold px-6 py-2 bg-[#FF4240] rounded-lg">Register Now!</button>
+                            <button
+                                class="text-lg lg:text-xl font-bold px-4 lg:px-6 py-2 bg-[#FF4240] rounded-lg">Register
+                                Now!</button>
                         </div>
                     </div>
                 </div>
                 <!-- Teenager Program -->
                 <div
-                    class="hero place-items-end min-h-[338px] bg-[url('./Images/3.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
+                    class="hero place-items-end lg:min-h-[338px] bg-[url('./Images/3.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
                     <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
                     <div class="text-white">
-                        <div class="mx-10 mb-10">
-                            <h1 class="mb-4 text-2xl font-extrabold">Teenager Program</h1>
-                            <p class="mb-6 text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                        <div class="p-6 lg:p-0 lg:mx-10 lg:mb-10">
+                            <h1 class="mb-3 lg:mb-4 text-xl lg:text-2xl font-extrabold">Teenager Program</h1>
+                            <p class="mb-5 lg:mb-6 text-sm lg:text-base font-medium">Dolor sit amet consectetur. Ut urna
+                                diam quis
                                 sagittis. Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
-                            <button class="text-xl font-bold px-6 py-2 bg-[#FF4240] rounded-lg">Register Now!</button>
+                            <button
+                                class="text-lg lg:text-xl font-bold px-4 lg:px-6 py-2 bg-[#FF4240] rounded-lg">Register
+                                Now!</button>
                         </div>
                     </div>
                 </div>
                 <!-- Professional Program -->
                 <div
-                    class="relative hero place-items-start min-h-[450px] col-span-2 bg-[url('./Images/4.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
+                    class="lg:relative hero place-items-start lg:min-h-[450px] lg:col-span-2 bg-[url('./Images/4.png')] bg-no-repeat bg-cover bg-center rounded-2xl">
                     <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
                     <div class="text-white">
-                        <div class="absolute bottom-10 mx-10">
-                            <h1 class="mb-4 text-2xl font-extrabold">Professional Program</h1>
-                            <p class="mb-6 text-base font-medium max-w-md">Dolor sit amet consectetur. Ut urna diam quis
+                        <div class="lg:absolute p-6 lg:p-0 lg:bottom-10 lg:mx-10">
+                            <h1 class="mb-3 lg:mb-4 text-xl lg:text-2xl font-extrabold">Professional Program</h1>
+                            <p class="mb-5 lg:mb-6 text-sm lg:text-base font-medium lg:max-w-md">Dolor sit amet
+                                consectetur. Ut urna diam quis
                                 sagittis. Elit elit
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                                 congue sed et in.</p>
-                            <button class="text-xl font-bold px-6 py-2 bg-[#FF4240] rounded-lg">Register Now!</button>
+                            <button
+                                class="text-lg lg:text-xl font-bold px-4 lg:px-6 py-2 bg-[#FF4240] rounded-lg">Register
+                                Now!</button>
                         </div>
                     </div>
                 </div>
@@ -250,16 +271,19 @@
 
         <!-- Our New ProductsSection Start Here -->
         <section class="">
-            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
-                <h2 class="text-4xl font-extrabold">Our New Products</h2>
-                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+            <div
+                class="space-y-4 lg:space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-6 lg:py-8 mb-6 lg:mb-12">
+                <h2 class="text-[22px] lg:text-4xl font-extrabold">Our New Products</h2>
+                <p class="text-sm lg:text-base font-medium max-w-72 lg:max-w-xl mx-auto">Dit amet consectetur.
+                    Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <!-- Cards Container -->
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <!-- card-1 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/5.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#E0E0E2] to-[#C6C4C9] lg:w-auto"><img
+                            class="mx-auto" src="./Images/5.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -295,7 +319,7 @@
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-base font-medium text-[#89898B]">Dolor sit amet consectetur. Ut urna diam quis
                             sagittis.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col lg:flex-row gap-5">
                             <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
                             <div class="flex gap-2 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -309,8 +333,9 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/6.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#FFFFFF] to-[#FDFDFD] lg:w-auto"><img
+                            class="mx-auto" src="./Images/6.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -360,8 +385,9 @@
                     </div>
                 </div>
                 <!-- card-3 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/7.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#E1D9C2] to-[#DDD2B6] lg:w-auto"><img
+                            class="mx-auto" src="./Images/7.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -411,8 +437,9 @@
                     </div>
                 </div>
                 <!-- card-4 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/8.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#D6D6D6] to-[#D7D7D7] lg:w-auto"><img
+                            class="mx-auto" src="./Images/8.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -462,8 +489,9 @@
                     </div>
                 </div>
                 <!-- card-5 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/9.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#EEEDEE] to-[#EFEDEE] lg:w-auto"><img
+                            class="mx-auto" src="./Images/9.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -513,8 +541,9 @@
                     </div>
                 </div>
                 <!-- card-6 -->
-                <div class="border-[1px] rounded-2xl p-6 max-h-[218px] flex flex-row items-center gap-5">
-                    <figure><img src="./Images/10.png" alt="Album" /></figure>
+                <div class="border-[1px] rounded-2xl p-6 lg:max-h-[218px] flex flex-col lg:flex-row items-center gap-5">
+                    <figure class="w-full rounded-xl bg-gradient-to-r from-[#FAFAFA] to-[#F4F4F4] lg:w-auto"><img
+                            class="mx-auto" src="./Images/10.png" alt="Album" /></figure>
                     <div class="space-y-3">
                         <div class="flex items-center gap-4">
                             <div class="flex items-center gap-2">
@@ -569,15 +598,18 @@
 
         <!-- Clients Question Bonus Section Start Here -->
         <section class="">
-            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
-                <h2 class="text-4xl font-extrabold">Clients Question</h2>
-                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+            <div
+                class="space-y-4 lg:space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-6 lg:py-8 mb-6 lg:mb-12">
+                <h2 class="text-[22px] lg:text-4xl font-extrabold">Clients Question</h2>
+                <p class="text-sm lg:text-base font-medium max-w-72 lg:max-w-xl mx-auto">Dit amet consectetur.
+                    Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <!-- Clients Question Container -->
-            <div class="border-[1px] rounded-2xl p-8 flex items-center gap-10">
-                <div class="">
-                    <img class="max-w-[440px]" src="./Images/11.png" alt="">
+            <div class="border-[1px] rounded-2xl p-6 lg:p-8 flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
+                <div class="w-full lg:w-auto rounded-2xl">
+                    <img class="w-full lg:w-auto h-[180px] lg:h-auto rounded-2xl object-cover lg:max-w-[440px]"
+                        src="./Images/11.png" alt="">
                 </div>
                 <div class="w-full">
                     <div class="join join-vertical w-full">
@@ -594,7 +626,7 @@
                         </div>
                         <!-- Clients Question 2 -->
                         <div class="collapse collapse-plus join-item border border-x-0 border-t-0 border-base-300">
-                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <input type="radio" name="my-accordion-4" />
                             <div class="collapse-title text-xl font-bold text-[#131318]">
                                 Hockey Training
                             </div>
@@ -605,7 +637,7 @@
                         </div>
                         <!-- Clients Question 3 -->
                         <div class="collapse collapse-plus join-item border border-x-0 border-t-0 border-base-300">
-                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <input type="radio" name="my-accordion-4" />
                             <div class="collapse-title text-xl font-bold text-[#131318]">
                                 Private Lessons
                             </div>
@@ -616,7 +648,7 @@
                         </div>
                         <!-- Clients Question 4 -->
                         <div class="collapse collapse-plus join-item border border-x-0 border-t-0 border-base-300">
-                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <input type="radio" name="my-accordion-4" />
                             <div class="collapse-title text-xl font-bold text-[#131318]">
                                 Ski Touring
                             </div>
@@ -627,7 +659,7 @@
                         </div>
                         <!-- Clients Question 5 -->
                         <div class="collapse collapse-plus join-item border border-x-0 border-t-0 border-base-300">
-                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <input type="radio" name="my-accordion-4" />
                             <div class="collapse-title text-xl font-bold text-[#131318]">
                                 Booking
                             </div>
@@ -638,7 +670,7 @@
                         </div>
                         <!-- Clients Question 6 -->
                         <div class="collapse collapse-plus join-item">
-                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <input type="radio" name="my-accordion-4" />
                             <div class="collapse-title text-xl font-bold text-[#131318]">
                                 Pricings
                             </div>
@@ -647,8 +679,6 @@
                                     urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -657,16 +687,18 @@
 
         <!-- Get In Touch Section Start Here -->
         <section class="">
-            <div class="space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-8 mb-12">
-                <h2 class="text-4xl font-extrabold">Get In Touch</h2>
-                <p class="text-base font-medium max-w-xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+            <div
+                class="space-y-4 lg:space-y-6 text-center border-dashed border-[1px] border-[#13131833] border-x-0 py-6 lg:py-8 mb-6 lg:mb-12">
+                <h2 class="text-[22px] lg:text-4xl font-extrabold">Get In Touch</h2>
+                <p class="text-sm lg:text-base font-medium max-w-72 lg:max-w-xl mx-auto">Dit amet consectetur.
+                    Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <!-- Get In Touch container -->
-            <div class="grid grid-cols-12 gap-7 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-7 items-center">
                 <!-- contact -->
-                <div class="col-span-5 border-[1px] rounded-2xl p-12 space-y-6">
-                    <div class="bg-[#bced6d1a] p-8 rounded-2xl">
+                <div class="lg:col-span-5 border-[1px] rounded-2xl p-6 lg:p-12 space-y-6">
+                    <div class="bg-[#bced6d1a] p-6 lg:p-8 rounded-2xl">
                         <img src="./Images/Group 1171275317.png" alt="">
                         <p class="text-base font-normal text-[#89898B] mt-6">
                             Phone Number :
@@ -674,7 +706,7 @@
                             <span class="text-lg font-extrabold text-[#131318]">(+62) 123-321-543</span>
                         </p>
                     </div>
-                    <div class="bg-[#fddd5f1a] p-8 rounded-2xl">
+                    <div class="bg-[#fddd5f1a] p-6 lg:p-8 rounded-2xl">
                         <img src="./Images/Group 1171275318.png" alt="">
                         <p class="text-base font-normal text-[#89898B] mt-6">
                             Email :
@@ -682,7 +714,7 @@
                             <span class="text-lg font-extrabold text-[#131318]"> hockeys@support.com</span>
                         </p>
                     </div>
-                    <div class="bg-[#629cf31a] p-8 rounded-2xl">
+                    <div class="bg-[#629cf31a] p-6 lg:p-8 rounded-2xl">
                         <img src="./Images/Group 1171275321.png" alt="">
                         <p class="text-base font-normal text-[#89898B] mt-6">
                             Location :
@@ -692,8 +724,8 @@
                     </div>
                 </div>
                 <!-- form -->
-                <div class="col-span-7">
-                    <form action="" class="grid grid-cols-2 gap-6">
+                <div class="lg:col-span-7">
+                    <form action="" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <label for="">
                             <span class="text-xl font-bold text-[#131318]">Your Name</span>
                             <input type="text" placeholder="Enter your full name"
@@ -714,19 +746,19 @@
                             <input type="text" placeholder="Enter your full name"
                                 class="block border-0 outline-0 w-full rounded-xl bg-[#13131808] p-5 placeholder:text-[#1313184d] mt-4">
                         </label>
-                        <label for="" class="col-span-2">
+                        <label for="" class="lg:col-span-2">
                             <span class="text-xl font-bold text-[#131318]">Message</span>
                             <textarea name="" id="" rows="10" placeholder="Write your message"
                                 class="block border-0 outline-0 w-full rounded-xl bg-[#13131808] p-5 placeholder:text-[#1313184d] mt-4"></textarea>
                         </label>
-                        <label for="" class="col-span-2 mt-8">
+                        <label for="" class="lg:col-span-2 mt-4 lg:mt-8">
                             <input type="button" value="Send Message"
-                                class="block border-0 outline-0 w-full rounded-xl bg-[#FF4240] p-5 text-white text-xl font-bold">
+                                class="block border-0 outline-0 w-full rounded-xl bg-[#FF4240] p-4 text-white text-xl font-bold">
                         </label>
                     </form>
                 </div>
                 <!-- social -->
-                <div class="col-span-12 bg-[#13131808] rounded-2xl py-8 text-center space-y-5">
+                <div class="lg:col-span-12 bg-[#13131808] rounded-2xl py-7 lg:py-8 text-center space-y-5">
                     <h4 class="text-2xl font-extrabold text-[#131318]">Social Media</h4>
                     <div class="flex justify-center gap-7">
                         <i class="text-2xl fa-brands fa-twitter"></i>
@@ -742,8 +774,9 @@
     <!-- Main Section End Here -->
 
     <!-- Footer Section Start Here -->
-    <footer class="bg-[#131318]">
-        <section class="container mx-auto max-w-[1170px] flex p-10 lg:py-24 gap-10 lg:gap-[158px] flex-wrap lg:flex-nowrap text-center lg:text-left">
+    <footer class="bg-[#131318] p-10">
+        <section
+            class="container mx-auto max-w-[1170px] flex lg:py-24 gap-10 lg:gap-[158px] flex-wrap lg:flex-nowrap text-center lg:text-left">
             <div class="text-white">
                 <h3 class="text-2xl lg:text-[28px] font-extrabold">Get In Touch</h3>
                 <p class="text-base font-medium text-[#ffffff99] pt-4 pb-6">Dit amet consectetur. Condimentum adipiscing
@@ -765,7 +798,7 @@
                     <p class="text-base font-medium text-[#ffffff99]">(+62) 123-321-543</p>
                 </div>
             </div>
-            <div class="">
+            <div class="mx-auto">
                 <h4 class="text-white text-lg font-bold mb-7">Company</h4>
                 <ul class="text-base font-medium text-[#ffffff99] space-y-4 text-nowrap">
                     <li>About us</li>
@@ -775,7 +808,7 @@
                     <li>Legal Notice</li>
                 </ul>
             </div>
-            <div class="">
+            <div class="mx-auto">
                 <h4 class="text-white text-lg font-bold mb-7">Support</h4>
                 <ul class="text-base font-medium text-[#ffffff99] space-y-4 text-nowrap">
                     <li>Help Center</li>
