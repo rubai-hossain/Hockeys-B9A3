@@ -40,8 +40,45 @@
     <!-- Header Section Start Here -->
     <header class="container mx-auto max-w-[1170px]">
         <!-- Navbar Section Start Here -->
-        <nav>
-
+        <nav class="my-12">
+            <div class="navbar p-0">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">&#8217;</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="flex items-center gap-11 text-base font-normal text-[#424247]">
+                        <li><a class="text-[#FF4240] font-bold hover:cursor-pointer">Home</a></li>
+                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">About</a></li>
+                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">Pages</a></li>
+                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer">Blog</a></li>
+                        <li><a class="hover:text-[#FF4240] hover:font-bold hover:cursor-pointer"a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex gap-6 items-center">
+                    <i class="text-2xl text-[#89898B] fa-solid fa-magnifying-glass"></i>
+                    <a class="bg-[#FF4240] text-white text-xl font-bold px-6 py-4 rounded-lg">Get Ticket</a>
+                </div>
+                <div class="navbar-end lg:hidden">
+                    <a class="bg-[#FF4240] text-white text-xl font-bold px-6 py-4 rounded-lg">Get Ticket</a>
+                </div>
+            </div>
         </nav>
         <!-- Navbar Section End Here -->
 
@@ -706,7 +743,7 @@
 
     <!-- Footer Section Start Here -->
     <footer class="bg-[#131318]">
-        <section class="container mx-auto max-w-[1170px] flex py-24 gap-[158px]">
+        <section class="container mx-auto max-w-[1170px] flex py-24 gap-[158px] flex-wrap lg:flex-nowrap">
             <div class="text-white">
                 <h3 class="text-[28px] font-extrabold">Get In Touch</h3>
                 <p class="text-base font-medium text-[#ffffff99] pt-4 pb-6">Dit amet consectetur. Condimentum adipiscing
